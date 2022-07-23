@@ -1,5 +1,5 @@
 {
-  "name": "@mlk9/irtools",
+  "name": "mlk9-irtools",
   "version": "1.0.0",
   "main": "./main/index.js",
   "scripts": {
