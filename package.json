@@ -1,0 +1,27 @@
+{
+  "name": "ir-bank-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./main/index.js",
+  "scripts": {
+    "start": "npm i && tsc",
+    "test": "npx jest"
+  },
+  "directories": {
+		"test": "tests"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mlk9/irtools.git"
+	},
+	"files": [
+		"build"
+	],
+  "author": "Mohammad Maleki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5"
+  }
+}
