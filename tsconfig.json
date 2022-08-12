@@ -21,6 +21,7 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
+		"esModuleInterop": true,
 		"types": ["jest", "node"]
 	},
 	"include": ["src", "tests"],

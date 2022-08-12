@@ -1,4 +1,5 @@
 import { Convertor, IrBank, National } from "../src";
+import lang from "../src/lang/en.json"
 
 describe('Convert Module Test', () => {
   test('Rial to Toman', () => {
@@ -25,7 +26,7 @@ describe('IrBank Module Test', () => {
   });
   test('Get Bank Name', () => {
     // expect(IrBank.getBankName(YOUR CORRECT CARD NUMBER)).toBe(BANK NAME)
-    expect(() => {IrBank.getBankName('3322')}).toThrow('Input most be card number or IBan Serial')
+    expect(() => {IrBank.getBankName('3322')}).toThrow(lang.parameter_must_be_iBan_card)
   });
 });
 
