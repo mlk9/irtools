@@ -1,4 +1,4 @@
-import { Bank } from "./types/BankType";
+import { Bank } from "../types/BankType";
 
 export const banksData : Bank[] = [
     {
