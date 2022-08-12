@@ -1,6 +1,6 @@
 {
   "name": "mlk9-irtools",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "main": "./main/index.js",
   "scripts": {
     "start": "npm i && tsc",
@@ -27,5 +27,5 @@
     "url": "https://github.com/mlk9/irtools/issues"
   },
   "homepage": "https://github.com/mlk9/irtools#readme",
-  "description": ""
+  "description": "Iranian useful tools ; Bank validation, Convert Numbers, ..."
 }
