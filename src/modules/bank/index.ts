@@ -1,11 +1,6 @@
 import { Convertor } from "../convertor"
 import { banksData } from "./data"
-
-type Bank = {
-    name: string
-    card: number[]
-    iban: number[]
-}
+import { Bank } from "./types/BankType"
 
 export class IrBank {
 

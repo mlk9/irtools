@@ -1,4 +1,6 @@
-export const banksData = [
+import { Bank } from "./types/BankType";
+
+export const banksData : Bank[] = [
     {
         "name": "اقتصاد نوین",
         "card": [
