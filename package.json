@@ -1,6 +1,6 @@
 {
   "name": "mlk9-irtools",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "main": "./main/index.js",
   "scripts": {
     "start": "npm i && tsc",
