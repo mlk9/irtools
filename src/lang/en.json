@@ -1,0 +1,9 @@
+{
+    "parameter_must_be_string" : "Parameter type must be string",
+    "parameter_must_be_number" : "Parameter type must be number",
+    "parameter_must_be_string_number" : "Parameter type must be string or number",
+    "parameter_must_be_iBan" : "Parameter type must be iBan number",
+    "parameter_must_be_card" : "Parameter type must be card number",
+    "parameter_must_be_iBan_card" : "Parameter type must be iBan number or card number",
+    "bank_not_found" : "Bank name not found"
+}

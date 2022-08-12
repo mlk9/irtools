@@ -1,6 +1,7 @@
 import { Convertor } from "../convertor"
 import { banksData } from "./data"
 import { Bank } from "./types/BankType"
+import lang from '../../lang/en.json'
 
 export class IrBank {
 
@@ -12,7 +13,7 @@ export class IrBank {
 
         if(typeof input !== 'string' && typeof input !== 'number')
         {
-            throw new SyntaxError('input most be string or number.')
+            throw new SyntaxError(lang.parameter_must_be_string_number)
         }
 
         let num : string = input.toString()
@@ -36,7 +37,7 @@ export class IrBank {
 
             if(bankName==='')
             {
-                throw new Error('Bank name not found')
+                throw new Error(lang.bank_not_found)
             }
         }else if(this.isIBan(num)) 
         {
@@ -51,10 +52,10 @@ export class IrBank {
 
             if(bankName==='')
             {
-                throw new Error('Bank name not found')
+                throw new Error(lang.bank_not_found)
             }
         }else{
-            throw new Error('Input most be card number or IBan Serial')
+            throw new Error(lang.parameter_must_be_iBan_card)
         }
 
         return bankName
@@ -66,7 +67,7 @@ export class IrBank {
 
         if(typeof card !== 'string' && typeof card !== 'number')
         {
-            throw new SyntaxError('card most be string or number.')
+            throw new SyntaxError(lang.parameter_must_be_string_number)
         }
 
         if(typeof card === "number")
@@ -99,7 +100,7 @@ export class IrBank {
     {
         if(typeof iban !== 'string')
         {
-            throw new SyntaxError('iban most be string.')
+            throw new SyntaxError(lang.parameter_must_be_string)
         }
 
         iban = iban.toUpperCase()

@@ -1,4 +1,5 @@
 import { Convertor } from "../convertor"
+import lang from '../../lang/en.json'
 
 export class National {
 
@@ -7,7 +8,7 @@ export class National {
         text = Convertor.toEnNumbers(text.toString())
 
         if (typeof text !== 'string') {
-            throw new SyntaxError('Input text most be string.')
+            throw new SyntaxError(lang.parameter_must_be_string)
         }
 
         if (text === "0123456789") {
